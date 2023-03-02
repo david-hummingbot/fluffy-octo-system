@@ -117,6 +117,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#rate-limits-share-pct" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -5628,10 +5633,44 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Rate Limits
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Rate Limits
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-the-parameter" class="md-nav__link">
+    How to use the parameter
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -6104,6 +6143,40 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-the-parameter" class="md-nav__link">
+    How to use the parameter
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -6115,9 +6188,23 @@
                 
                 
                 
-                  <h1>Rate Limits</h1>
-                
-                
+                <h1 id="rate-limits-share-pct">Rate Limits Share Pct<a class="headerlink" href="#rate-limits-share-pct" title="Permanent link">&para;</a></h1>
+<p>Some exchanges impose rate limits per account. When running multiple bots using a single account, <code>rate_limits_share_pct</code> users to set a certain percentage of the total limit to each instance. When the bot is near the allocated limit, Hummingbot sends a notification as a warning so users can adjust their configuration before the account is banned.</p>
+<p>For example, the rate limit for AscendEX is 100 requests per second. Your account will be banned for a certain period of time if you keep hitting the rate limit in 10 minutes (status code <code>429</code> or <code>100014</code>).</p>
+<p>Setting 50% for <code>rate_limits_share_pct</code> means we want the bot to send a notification when it starts to send 50 requests per second for that specific instance.</p>
+<h2 id="how-to-use-the-parameter">How to use the parameter<a class="headerlink" href="#how-to-use-the-parameter" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Run <code>config rate_limits_share_pct</code> while the strategy is stopped</li>
+<li>Enter the percentage of API rate limit you want to allocate to the bot
+<img alt="" src="/assets/img/rate-limits-share-pct-prompt.png" /></li>
+<li>Start the strategy using <code>start</code> command</li>
+<li>A notification will be displayed in the output pane when the <code>rate_limits_share_pct</code> value is about to be reached
+<img alt="" src="/assets/img/rate-limits-share-pct-message.png" /></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can also configure this setting while the strategy is running. However, the strategy must be restarted for the changes to take effect.</p>
+</div>
                 
                   
   

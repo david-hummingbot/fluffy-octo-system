@@ -117,6 +117,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#parameters" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -5615,9 +5620,73 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Rate Oracle
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Rate Oracle
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+    <nav class="md-nav" aria-label="Parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rate_oracle_source" class="md-nav__link">
+    rate_oracle_source
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global_tokenglobal_token_name" class="md-nav__link">
+    global_token.global_token_name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global_tokenglobal_tokenglobal_token_symbol" class="md-nav__link">
+    global_token.global_token.global_token_symbol
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -6104,6 +6173,72 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+    <nav class="md-nav" aria-label="Parameters">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rate_oracle_source" class="md-nav__link">
+    rate_oracle_source
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global_tokenglobal_token_name" class="md-nav__link">
+    global_token.global_token_name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global_tokenglobal_tokenglobal_token_symbol" class="md-nav__link">
+    global_token.global_token.global_token_symbol
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -6117,7 +6252,51 @@
                 
                   <h1>Rate Oracle</h1>
                 
-                
+                <p>This new feature provides real time, most up-to-date exchange rate on any given token or currency from a reliable and trustworthy data source.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Use rate oracle with the <a href="/strategies/cross-exchange-market-making/">cross exchange market making</a> and <a href="/strategies/arbitrage/">arbitrage</a> strategies.</p>
+</div>
+<h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h2>
+<h3 id="rate_oracle_source"><code>rate_oracle_source</code><a class="headerlink" href="#rate_oracle_source" title="Permanent link">&para;</a></h3>
+<p>The source where you want to pull data from, it can either be Binance, Coingecko, Kucoin or Ascendex. Please take note that using Coingecko will have a 30-second delay due to their API rate limit.</p>
+<div class="highlight"><pre><span></span><code>What source do you want rate oracle to pull data from? (binance, coingecko, kucoin, ascend_ex)&quot;
+&gt;&gt;&gt;
+</code></pre></div>
+<h3 id="global_tokenglobal_token_name"><code>global_token.global_token_name</code><a class="headerlink" href="#global_tokenglobal_token_name" title="Permanent link">&para;</a></h3>
+<p>This is a token which you can display other tokens' value in. Set the <code>global_token.global_token_name</code> according to your preferred token value.</p>
+<div class="highlight"><pre><span></span><code>What is your default display token? (e.g. USDT,USD,EUR)
+&gt;&gt;&gt;
+</code></pre></div>
+<h3 id="global_tokenglobal_tokenglobal_token_symbol"><code>global_token.global_token.global_token_symbol</code><a class="headerlink" href="#global_tokenglobal_tokenglobal_token_symbol" title="Permanent link">&para;</a></h3>
+<p>The symbol for the global token.</p>
+<div class="highlight"><pre><span></span><code>What is your default display token symbol? (e.g. $, €)
+&gt;&gt;&gt;
+</code></pre></div>
+<div class="admonition tip changing oracle sources">
+<p class="admonition-title">Tip</p>
+<p>If you happen to <code>start</code> the bot and produce the error <code>Oracle rate is not available</code>, or ff the <code>rate_oracle_source</code> fails to show any price reference on your pair, you may change the <code>oracle_source</code> by running <code>config rate_oracle_source</code> and switch between Binance, Coingecko, Kucoin or Ascendex.</p>
+</div>
+<p><img alt="" src="/assets/img/oracle-error.png" /></p>
+<h2 id="how-it-works">How it works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
+<p>If you need to view the rate oracle conversion after the <code>balance</code>, <code>pnl</code>, <code>open_orders</code>, <code>trades</code>, and <code>status</code> command, set it manually in the <code>conf_client.yml</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In past versions of Hummingbot (1.5.0 and below), the <code>conf_client.yml</code> file is named <code>conf_global.yml</code></p>
+</div>
+<p>To set the parameters for <code>rate_oracle_source</code>, <code>global_token.global_token_name</code> and <code>global_token.global_token_symbol</code>, run the <code>config</code> command.</p>
+<p>Refer to the example below:</p>
+<p>Change the default setting in <code>conf_client.yml</code> to GBP (Great Britain Pound). The conversion will show up when you run <code>balance</code> command.</p>
+<p><img alt="" src="/assets/img/rate-oracle-global-config.png" /></p>
+<p><img alt="" src="/assets/img/rate-oracle-balance.png" /></p>
+<p>The conversion also shows up during the <code>status</code> command for the <code>liquidity_mining</code> strategy. Under the <code>Miner</code> section.</p>
+<p><img alt="" src="/assets/img/oracle-status.png" /></p>
+<p>The conversion shows up when using the <code>pnl</code> command.</p>
+<p><img alt=" " src="/assets/img/oracle-pnl.png" /></p>
+<p>The conversion also shows up when running the <code>trades</code> command.</p>
+<p><img alt="" src="/assets/img/oracle-trades.png" /></p>
+<p>The conversion also works with the <code>open_orders</code> command.</p>
+<p><img alt="" src="/assets/img/oracle-open-orders.png" /></p>
                 
                   
   
