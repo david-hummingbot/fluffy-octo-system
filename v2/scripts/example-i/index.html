@@ -117,6 +117,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#exercise-i-hello-world-script" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -5907,7 +5912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debug/vscode.md" class="md-nav__link">
+      <a href="../../debug/vscode-linux/" class="md-nav__link">
         VSCode
       </a>
     </li>
@@ -5921,7 +5926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debug/pycharm.md" class="md-nav__link">
+      <a href="../../debug/pycharm-linux/" class="md-nav__link">
         Pycharm
       </a>
     </li>
@@ -6002,10 +6007,51 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Exercise I - Hello World Script
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Exercise I - Hello World Script
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lets-code" class="md-nav__link">
+    Let's code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes-and-tips" class="md-nav__link">
+    Notes and Tips
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -6102,6 +6148,47 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lets-code" class="md-nav__link">
+    Let's code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes-and-tips" class="md-nav__link">
+    Notes and Tips
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -6113,9 +6200,71 @@
                 
                 
                 
-                  <h1>Exercise I - Hello World Script</h1>
-                
-                
+                <h1 id="exercise-i-hello-world-script">Exercise I: Hello World Script<a class="headerlink" href="#exercise-i-hello-world-script" title="Permanent link">&para;</a></h1>
+<h2 id="lets-code">Let's code<a class="headerlink" href="#lets-code" title="Permanent link">&para;</a></h2>
+<p>Open the codebase in your favorite IDE and follow these steps:</p>
+<p>Add the following file inside the scripts folder: <code>quickstart_script.py</code></p>
+<p>Open the file and write this code:**</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">hummingbot.strategy.script_strategy_base</span> <span class="kn">import</span> <span class="n">ScriptStrategyBase</span>
+
+
+<span class="k">class</span> <span class="nc">QuickstartScript</span><span class="p">(</span><span class="n">ScriptStrategyBase</span><span class="p">):</span>
+
+  <span class="c1"># It is best to first use a paper trade exchange connector </span>
+  <span class="c1"># while coding your strategy, once you are happy with it</span>
+  <span class="c1"># then switch to real one.</span>
+
+  <span class="n">markets</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;binance_paper_trade&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;BTC-USDT&quot;</span><span class="p">}}</span>
+</code></pre></div>
+<p>Let’s code the logic that will be executed every tick_size (default=1sec)</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">on_tick</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="n">price</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">connectors</span><span class="p">[</span><span class="s2">&quot;binance_paper_trade&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">get_mid_price</span><span class="p">(</span><span class="s2">&quot;BTC-USDT&quot;</span><span class="p">)</span>
+      <span class="n">msg</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;Bitcoin price: $</span><span class="si">{</span><span class="n">price</span><span class="si">}</span><span class="s2">&quot;</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="p">()</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">notify_hb_app_with_timestamp</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Explanation:</strong></p>
+<ul>
+<li><code>on_tick</code> runs for every tick the bot internal clock executes (by default a new tick is generated every 1 second).</li>
+<li>All the connectors that you defined on <code>markets</code> are initialized when the script starts. You can access them in the class by calling <code>self.connectors</code>, which is a dictionary with the following structure: Dict[”connector_name”, ConnectorBase].</li>
+<li>To get the mid-price of Bitcoin, we are using the connector <code>binance_paper_trade</code> by doing <code>self.connectors["binance_paper_trade"].get_mid_price("BTC-USDT")</code>. So the logic to get any mid-price is: <code>self.connectors[connector_name].get_mid_price(trading_pair)</code>. (Make sure that they are defined in markets before using them)</li>
+<li><code>self.logger().info(msg)</code> logs the message to your Hummingbot app log panel and to <code>logs/log_quickstart_script.log</code> file</li>
+<li><code>self.notify_hb_app_with_timestamp(msg)</code> sends the message to your output panel (top left). If you have set up <a href="https://hummingbot.org/global-configs/telegram/">Telegram bot integration</a>, you will get the message on your Telegram chat as well.</li>
+</ul>
+<p>Open a terminal and run the client with <code>./bin/hummingbot.py</code>. (Make sure that the conda environment is activated)</p>
+<p>Run the command: <code>start --script quickstart_script.py</code>. You should have the following output.</p>
+<p><img alt="Example" src="../../assets/example1-a.png" /></p>
+<p>Run the <code>status</code> command to see the current status of your running script:</p>
+<p><img alt="Script Status" src="../../assets/script-status.png" /></p>
+<div class="admonition code">
+<p class="admonition-title">Code</p>
+<p><a href="https://gist.github.com/cardosofede/1a37db4ebc02440d8fb1352fc324e531">https://gist.github.com/cardosofede/1a37db4ebc02440d8fb1352fc324e531</a></p>
+</div>
+<h2 id="notes-and-tips">Notes and Tips<a class="headerlink" href="#notes-and-tips" title="Permanent link">&para;</a></h2>
+<ul>
+<li>You can define multiple connectors and multiple trading pairs, e.g.</li>
+</ul>
+<div class="highlight"><pre><span></span><code>markets = { &quot;binance_paper_trade&quot;: {&quot;BTC-USDT&quot;, &quot;ETH-USDT&quot;}, 
+            &quot;kucoin_paper_trade&quot;: {&quot;LUNA-USDT&quot;}
+          }
+</code></pre></div>
+<ul>
+<li>
+<p>You will see a sqlite database (<code>/data/script1.sqlite</code>) and a log file (<code>/logs/log_script1.log</code>) created for your script</p>
+</li>
+<li>
+<p>Your script is loaded up at runtime, so you don’t have to exit Hummingbot while you are updating your script code. You will just need to <code>stop</code> (to stop the current execution) and start it again with the command <code>start --script script.py</code> again.</p>
+</li>
+<li>
+<p>If you want to use a real connector instead of a paper trade one, first you need to configure it using the <code>connect</code> command and provide all the required API credentials</p>
+</li>
+<li>
+<p>Use arrow up key in the client to cycle through the list of previous commands</p>
+</li>
+<li>
+<p>Use <a href="https://dbeaver.io/">DBeaver</a> or another free database management tool) to open the sqlite database to see what the data that Hummingbot stores for you</p>
+</li>
+</ul>
                 
                   
   
@@ -6129,7 +6278,7 @@
   <small>
     
       Last update:
-      2023-03-02
+      2023-03-03
     
   </small>
 </div>

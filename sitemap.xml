@@ -2,1492 +2,1492 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.hummingbot.org/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/community/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/faq/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/glossary/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/reporting/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/support-hummingbot-cn/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/support-hummingbot/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/troubleshooting/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/about/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/about/history/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/chains/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/chains/avalanche/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/chains/bnb-chain/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/chains/cosmos/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/chains/cronos/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/chains/ethereum/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/chains/harmony/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/chains/near/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/chains/polygon/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/architecture/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/commands/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/contributions/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/debug/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/connectors/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/connectors/build/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/connectors/cex-connector-development/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/connectors/debug/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/connectors/test/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/connectors/architecture/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/connectors/architecture/api_throttler/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/connectors/architecture/order_lifecycle/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/strategies/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/strategies/architecture/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/strategies/config/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/strategies/hanging-orders/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/strategies/key-concepts/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/developers/strategies/tutorial/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/altmarkets/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/ascend-ex/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/binance-perpetual/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/binance-us/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/binance/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/bitfinex/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/bitget-perpetual/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/bitmart/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/bitmex-perpetual/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/bitmex/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/bittrex/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/btc-markets/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/bybit-perpetual/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/bybit/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/ci-ex/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/coinbase/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/crypto-com/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/defikingdoms/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/defira/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/dydx-perpetual/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/gate-io-perpetual/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/gate-io/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/himalaya/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/hitbtc/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/huobi/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/kraken/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/kucoin/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/lbank/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/loopring/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/mad-meerkat/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/mexc/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/ndax/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/okx/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/openocean/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/pancakeswap/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/pangolin/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/perp/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/probit/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/quickswap/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/ref/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/sushiswap/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/traderjoe/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/uniswap/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/vvs/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/exchanges/whitebit/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/gateway/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/gateway/adding-dex-connectors/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/gateway/api-reference/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/gateway/installation/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/gateway/running-dex-bots/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/gateway/setup/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/gateway/testing/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/gateway/tokens/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/balance-limit/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/clock-tick/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/color-settings/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/external-db/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/kill-switch/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/override-fees/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/paper-trade/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/rate-limits-share-pct/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/strategy-autostart/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/global-configs/telegram/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/governance/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/governance/board/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/governance/bounties/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/governance/epochs/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/governance/hackathons/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/governance/polls/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/governance/proposals/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/governance/releases/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/governance/whitepaper/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/installation/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/installation/cloud-servers/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/installation/docker/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/installation/multiple-bots/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/installation/raspberry-pi/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/installation/source/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/installation/update-hummingbot/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/balance/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/commands-shortcuts/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/config-files/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/connect/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/export/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/history/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/launch-exit/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/log-files/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/password/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/start-stop/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/status/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/operation/user-interface/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.10.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.10.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.11.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.11.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.12.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.12.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.13.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.14.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.15.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.16.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.17.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.17.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.18.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.18.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.19.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.19.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.2.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.20.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.21.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.22.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.23.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.24.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.24.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.25.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.26.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.26.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.27.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.28.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.28.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.29.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.3.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.3.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.30.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.31.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.32.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.33.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.33.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.34.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.35.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.36.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.37.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.37.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.38.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.38.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.39.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.39.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.4.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.40.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.41.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.42.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.43.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.43.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.44.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.45.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.46.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.5.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.5.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.6.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.7.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.8.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.8.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.9.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/0.9.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.0.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.0.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.1.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.1.1/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.10.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.11.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.12.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.13.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.2.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.3.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.4.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.5.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.6.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.7.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.8.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/release-notes/1.9.0/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/scripts/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/scripts/examples/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/scripts/getting-started/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/scripts/pmm-scripts/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/amm-arbitrage/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/aroon-oscillator/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/avellaneda-market-making/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/cross-exchange-market-making/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/cross-exchange-mining/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/hedge/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/liquidity-mining/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/perpetual-market-making/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/pure-market-making/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/spot-perpetual-arbitrage/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/strategy-template/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/twap/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategies/uniswap-v3-lp/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/add-transaction-costs/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/external-price-source/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/filled-order-delay/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/hanging-orders/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/inventory-skew/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/max-order-age/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/minimum-spread/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/order-levels/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/order-optimization/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/order-override/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/order-refresh-tolerance/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/ping-pong/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/price-band/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/strategy-configs/rate-oracle/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/faq/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/intro/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/references/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/bot-orchestration/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/docker-compose/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/multiple-bots/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/advanced/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/advanced/clock/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/advanced/debug/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/advanced/rate-limits/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/advanced/rate-oracle/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/advanced/telegram/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/basic/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/basic/api-keys/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/basic/balances/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/basic/commands/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/basic/config-files/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/basic/launch-exit/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/basic/log-files/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/basic/paper-trading/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/config/basic/user-interface/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/debug/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/debug/pycharm-linux/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/debug/pycharm-mac/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/debug/pycharm-windows/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/debug/vscode-linux/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/debug/vscode-mac/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/debug/vscode-windows/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/gateway/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/gateway/adding-dex-connectors/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/gateway/api-reference/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/gateway/installation/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/gateway/running-dex-bots/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/gateway/setup/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/gateway/testing/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/gateway/tokens/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/desktop-windows/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/docker-linux/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/docker-mac/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/docker-windows/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/gitbash/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/raspberry-pi/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/source-linux/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/source-mac/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/install/source-windows/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/scripts/example-i/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/scripts/example-ii/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/scripts/example-iii/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/scripts/example-iv/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.hummingbot.org/v2/scripts/quick-start/</loc>
-         <lastmod>2023-03-02</lastmod>
+         <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

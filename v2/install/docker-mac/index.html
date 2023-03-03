@@ -5992,7 +5992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debug/vscode.md" class="md-nav__link">
+      <a href="../../debug/vscode-linux/" class="md-nav__link">
         VSCode
       </a>
     </li>
@@ -6006,7 +6006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debug/pycharm.md" class="md-nav__link">
+      <a href="../../debug/pycharm-linux/" class="md-nav__link">
         Pycharm
       </a>
     </li>
@@ -6309,8 +6309,6 @@ mkdir hummingbot_files/hummingbot_logs
 mkdir hummingbot_files/hummingbot_data
 mkdir hummingbot_files/hummingbot_scripts
 mkdir hummingbot_files/hummingbot_pmm_scripts
-mkdir hummingbot_files/gateway_conf
-mkdir hummingbot_files/gateway_logs
 </code></pre></div>
 <p>Launch a new instance of hummingbot</p>
 <div class="highlight"><pre><span></span><code>docker run -it \
@@ -6321,8 +6319,6 @@ mkdir hummingbot_files/gateway_logs
 --mount &quot;type=bind,source=$(pwd)/hummingbot_files/hummingbot_data,destination=/data/&quot; \
 --mount &quot;type=bind,source=$(pwd)/hummingbot_files/hummingbot_pmm_scripts,destination=/pmm_scripts/&quot; \
 --mount &quot;type=bind,source=$(pwd)/hummingbot_files/hummingbot_scripts,destination=/scripts/&quot; \
---mount &quot;type=bind,source=$(pwd)/hummingbot_files/hummingbot_certs,destination=/home/hummingbot/.hummingbot-gateway/certs/&quot; \
---mount &quot;type=bind,source=$(pwd)/hummingbot_files/gateway_conf,destination=/gateway-conf/&quot; \
 hummingbot/hummingbot:latest
 </code></pre></div>
 <h2 id="additional-resources">Additional Resources<a class="headerlink" href="#additional-resources" title="Permanent link">&para;</a></h2>
@@ -6341,7 +6337,7 @@ hummingbot/hummingbot:latest
   <small>
     
       Last update:
-      2023-03-01
+      2023-03-03
     
   </small>
 </div>

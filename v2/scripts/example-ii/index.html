@@ -117,6 +117,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#lets-code" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -5907,7 +5912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debug/vscode.md" class="md-nav__link">
+      <a href="../../debug/vscode-linux/" class="md-nav__link">
         VSCode
       </a>
     </li>
@@ -5921,7 +5926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debug/pycharm.md" class="md-nav__link">
+      <a href="../../debug/pycharm-linux/" class="md-nav__link">
         Pycharm
       </a>
     </li>
@@ -6017,9 +6022,39 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Exercise II - Simple PMM
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Exercise II - Simple PMM
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lets-code" class="md-nav__link">
+    Let's Code
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -6102,6 +6137,38 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lets-code" class="md-nav__link">
+    Let's Code
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -6115,7 +6182,218 @@
                 
                   <h1>Exercise II - Simple PMM</h1>
                 
-                
+                <p>Exercise II: Simple PMM</p>
+<p>In this exercise, we are going to see how to implement a simple pure market making strategy. To understand what the strategy is going to do, you can check this Strategy Design Template.</p>
+<h2 id="lets-code">Let's Code<a class="headerlink" href="#lets-code" title="Permanent link">&para;</a></h2>
+<p>Add the following file inside the scripts folder: <code>quickstart_script_2.py</code></p>
+<p>Open the file in your IDE editor and write this code:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">decimal</span> <span class="kn">import</span> <span class="n">Decimal</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span>
+
+<span class="kn">from</span> <span class="nn">hummingbot.core.data_type.common</span> <span class="kn">import</span> <span class="n">OrderType</span><span class="p">,</span> <span class="n">PriceType</span><span class="p">,</span> <span class="n">TradeType</span>
+<span class="kn">from</span> <span class="nn">hummingbot.core.data_type.order_candidate</span> <span class="kn">import</span> <span class="n">OrderCandidate</span>
+<span class="kn">from</span> <span class="nn">hummingbot.core.event.events</span> <span class="kn">import</span> <span class="n">OrderFilledEvent</span>
+<span class="kn">from</span> <span class="nn">hummingbot.strategy.script_strategy_base</span> <span class="kn">import</span> <span class="n">ScriptStrategyBase</span>
+
+
+<span class="k">class</span> <span class="nc">QuickstartScript2</span><span class="p">(</span><span class="n">ScriptStrategyBase</span><span class="p">):</span>
+
+ <span class="n">bid_spread</span> <span class="o">=</span> <span class="mf">0.008</span>
+  <span class="n">ask_spread</span> <span class="o">=</span> <span class="mf">0.008</span>
+  <span class="n">order_refresh_time</span> <span class="o">=</span> <span class="mi">15</span>
+  <span class="n">order_amount</span> <span class="o">=</span> <span class="mf">0.01</span>
+  <span class="n">create_timestamp</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">trading_pair</span> <span class="o">=</span> <span class="s2">&quot;ETH-USDT&quot;</span>
+  <span class="n">exchange</span> <span class="o">=</span> <span class="s2">&quot;binance_paper_trade&quot;</span>
+  <span class="c1"># Here you can use for example the LastTrade price to use in your strategy</span>
+  <span class="n">price_source</span> <span class="o">=</span> <span class="n">PriceType</span><span class="o">.</span><span class="n">MidPrice</span>
+
+ <span class="n">markets</span> <span class="o">=</span> <span class="p">{</span><span class="n">exchange</span><span class="p">:</span> <span class="p">{</span><span class="n">trading_pair</span><span class="p">}}</span>
+</code></pre></div>
+<p><strong>Explanation:</strong></p>
+<ul>
+<li>We are adding the variables that we are going to need for the script based on the design template:</li>
+<li>The spreads are going to be useful to calculate the price of our orders.</li>
+<li>We are going to use <code>order_refresh_time</code> and <code>create_timestamp</code> to define when is necessary to cancel the open orders that we have in the market and place the new ones.</li>
+<li><code>order_amount</code> is the amount in base asset for our orders.</li>
+<li>
+<p><code>price_source</code> will be used when asking the price to the connector with the method <code>get_price_by_type</code>.</p>
+<p>The different options for <code>PriceType</code> are:
+- <code>MidPrice</code>
+- <code>BestBid</code>
+- <code>BestAsk</code>
+- <code>LastTrade</code>
+- <code>LastOwnTrade</code>
+- <code>Custom</code> (if you are using a custom API to get the price)
+  - <code>trading_pair</code> and <code>exchange</code> are going to be used to initialize the markets as we saw in the previous example.</p>
+</li>
+</ul>
+<p>Let’s code the logic that will be executed every tick_size (default=1sec)</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">on_tick</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_timestamp</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">current_timestamp</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cancel_all_orders</span><span class="p">()</span>
+        <span class="n">proposal</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">OrderCandidate</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_proposal</span><span class="p">()</span>
+        <span class="n">proposal_adjusted</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">OrderCandidate</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">adjust_proposal_to_budget</span><span class="p">(</span><span class="n">proposal</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">place_orders</span><span class="p">(</span><span class="n">proposal_adjusted</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">create_timestamp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">order_refresh_time</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">current_timestamp</span>
+</code></pre></div>
+<p><strong>Explanation:</strong></p>
+<ul>
+<li>Based on the design template, these are the high-level tasks that the bot has to do.</li>
+<li>If it’s time to replace the orders, the bot will:<ol>
+<li>Cancel all the orders</li>
+<li>Create a new proposal.<ul>
+<li>The proposal will be a list of  <code>OrderCandidate</code>.</li>
+<li>The <code>OrderCandidate</code> is helpful to check if you have sufficient tokens to execute the transaction.</li>
+</ul>
+</li>
+<li>Adjust the proposal to the budget:<ul>
+<li>We have to use the budget_checker of the connector.<ul>
+<li>To adjust one order: <code>self.connectors[connector_name].budget_checker.adjust_candidate(OrderCandidate)</code></li>
+<li>To adjust a list of orders: <code>self.connectors[connector_name].budget_checker.adjust_candidates(List[OrderCandidate])</code></li>
+</ul>
+</li>
+<li>Then we are going to see the implementation. Now you can see why creating the proposal as a list or OrderCandidates was a good idea.</li>
+</ul>
+</li>
+<li>Place the orders</li>
+<li>Update the create timestamp: this will set up the time that the bot has to wait until starting to execute the logic again.</li>
+</ol>
+</li>
+</ul>
+<p>Now let’s code the methods that we defined before:</p>
+<ul>
+<li><code>cancel_all_orders</code></li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">cancel_all_orders</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">order</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_active_orders</span><span class="p">(</span><span class="n">connector_name</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exchange</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cancel</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">exchange</span><span class="p">,</span> <span class="n">order</span><span class="o">.</span><span class="n">trading_pair</span><span class="p">,</span> <span class="n">order</span><span class="o">.</span><span class="n">client_order_id</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Explanation</strong></p>
+<ul>
+<li>
+<p>The method <code>get_active_orders</code> gives you a list of the active limit orders.</p>
+</li>
+<li>
+<p>We are going to cancel each order by calling the method <code>self.cancel(connector_name, trading_pair, client_order_id)</code></p>
+</li>
+<li>
+<p>We are using the information of <code>trading_pair</code> of the LimitOrder and the <code>client_order_id</code> which is an internal order id that Hummingbot generates before sending the order.</p>
+</li>
+<li>
+<p><code>create_proposal</code></p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">create_proposal</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">OrderCandidate</span><span class="p">]:</span>
+    <span class="n">ref_price</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">connectors</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">exchange</span><span class="p">]</span><span class="o">.</span><span class="n">get_price_by_type</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">trading_pair</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">price_source</span><span class="p">)</span>
+    <span class="n">buy_price</span> <span class="o">=</span> <span class="n">ref_price</span> <span class="o">*</span> <span class="n">Decimal</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">bid_spread</span><span class="p">)</span>
+    <span class="n">sell_price</span> <span class="o">=</span> <span class="n">ref_price</span> <span class="o">*</span> <span class="n">Decimal</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">ask_spread</span><span class="p">)</span>
+
+    <span class="n">buy_order</span> <span class="o">=</span> <span class="n">OrderCandidate</span><span class="p">(</span><span class="n">trading_pair</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">trading_pair</span><span class="p">,</span> <span class="n">is_maker</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">order_type</span><span class="o">=</span><span class="n">OrderType</span><span class="o">.</span><span class="n">LIMIT</span><span class="p">,</span>
+                               <span class="n">order_side</span><span class="o">=</span><span class="n">TradeType</span><span class="o">.</span><span class="n">BUY</span><span class="p">,</span> <span class="n">amount</span><span class="o">=</span><span class="n">Decimal</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">order_amount</span><span class="p">),</span> <span class="n">price</span><span class="o">=</span><span class="n">buy_price</span><span class="p">)</span>
+
+    <span class="n">sell_order</span> <span class="o">=</span> <span class="n">OrderCandidate</span><span class="p">(</span><span class="n">trading_pair</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">trading_pair</span><span class="p">,</span> <span class="n">is_maker</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">order_type</span><span class="o">=</span><span class="n">OrderType</span><span class="o">.</span><span class="n">LIMIT</span><span class="p">,</span>
+                                <span class="n">order_side</span><span class="o">=</span><span class="n">TradeType</span><span class="o">.</span><span class="n">SELL</span><span class="p">,</span> <span class="n">amount</span><span class="o">=</span><span class="n">Decimal</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">order_amount</span><span class="p">),</span> <span class="n">price</span><span class="o">=</span><span class="n">sell_price</span><span class="p">)</span>
+
+  <span class="k">return</span> <span class="p">[</span><span class="n">buy_order</span><span class="p">,</span> <span class="n">sell_order</span><span class="p">]</span>
+</code></pre></div>
+<p><strong>Explanation</strong></p>
+<ul>
+<li>
+<p>First, we are getting the reference price (in this case MidPrice) which we are going to use to calculate the bid and ask prices, by multiplying it with the bid and ask spread.</p>
+</li>
+<li>
+<p>Then we are creating two <code>OrderCandidate</code>'s and return them inside a list.</p>
+</li>
+<li>
+<p><code>adjust_proposal_to_budget</code></p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">adjust_proposal_to_budget</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">proposal</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">OrderCandidate</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">OrderCandidate</span><span class="p">]:</span>
+    <span class="n">proposal_adjusted</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">connectors</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">exchange</span><span class="p">]</span><span class="o">.</span><span class="n">budget_checker</span><span class="o">.</span><span class="n">adjust_candidates</span><span class="p">(</span><span class="n">proposal</span><span class="p">,</span> <span class="n">all_or_none</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">proposal_adjusted</span>
+</code></pre></div>
+<p><strong>Explanation</strong></p>
+<ul>
+<li>
+<p>As we mentioned before, we can use the budget checker to check if the balance that we have in the account is enough to send the order.</p>
+</li>
+<li>
+<p>The argument <code>all_or_none=True</code> checks if you can balance to send the entire amount, if not, modifies the amount to the order to zero.</p>
+</li>
+<li>
+<p>If <code>all_or_none=False</code>, the budget checker will adjust the value to the balance available in your inventory. For example:</p>
+</li>
+<li>Order Amount = 1 ETH</li>
+<li>Balance = 0.5 ETH</li>
+<li>
+<p>The new order amount will be 0.5 ETH</p>
+</li>
+<li>
+<p><code>place_orders</code></p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">place_orders</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">proposal</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">OrderCandidate</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">order</span> <span class="ow">in</span> <span class="n">proposal</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">place_order</span><span class="p">(</span><span class="n">connector_name</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">exchange</span><span class="p">,</span> <span class="n">order</span><span class="o">=</span><span class="n">order</span><span class="p">)</span>
+</code></pre></div>
+<ul>
+<li><code>place_order</code></li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">place_order</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">connector_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">order</span><span class="p">:</span> <span class="n">OrderCandidate</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">order</span><span class="o">.</span><span class="n">order_side</span> <span class="o">==</span> <span class="n">TradeType</span><span class="o">.</span><span class="n">SELL</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sell</span><span class="p">(</span><span class="n">connector_name</span><span class="o">=</span><span class="n">connector_name</span><span class="p">,</span> <span class="n">trading_pair</span><span class="o">=</span><span class="n">order</span><span class="o">.</span><span class="n">trading_pair</span><span class="p">,</span> <span class="n">amount</span><span class="o">=</span><span class="n">order</span><span class="o">.</span><span class="n">amount</span><span class="p">,</span>
+                  <span class="n">order_type</span><span class="o">=</span><span class="n">order</span><span class="o">.</span><span class="n">order_type</span><span class="p">,</span> <span class="n">price</span><span class="o">=</span><span class="n">order</span><span class="o">.</span><span class="n">price</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">order</span><span class="o">.</span><span class="n">order_side</span> <span class="o">==</span> <span class="n">TradeType</span><span class="o">.</span><span class="n">BUY</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">buy</span><span class="p">(</span><span class="n">connector_name</span><span class="o">=</span><span class="n">connector_name</span><span class="p">,</span> <span class="n">trading_pair</span><span class="o">=</span><span class="n">order</span><span class="o">.</span><span class="n">trading_pair</span><span class="p">,</span> <span class="n">amount</span><span class="o">=</span><span class="n">order</span><span class="o">.</span><span class="n">amount</span><span class="p">,</span>
+                 <span class="n">order_type</span><span class="o">=</span><span class="n">order</span><span class="o">.</span><span class="n">order_type</span><span class="p">,</span> <span class="n">price</span><span class="o">=</span><span class="n">order</span><span class="o">.</span><span class="n">price</span><span class="p">)</span>
+</code></pre></div>
+<p><strong>Explanation</strong></p>
+<ul>
+<li>Based on the side of the order we are going to call the method <code>buy</code> or <code>sell</code> of the strategy.</li>
+<li>Is important to execute the buy and sell methods of the strategy because the logic of the order tracking is encapsulated there. If you buy or sell directly with the connector, you are going to loose the tracking of the order by the strategy.</li>
+</ul>
+<p>The last thing that we are going to do before running the script is to code an event.</p>
+<ul>
+<li><code>did_fill_order</code></li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">did_fill_order</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">:</span> <span class="n">OrderFilledEvent</span><span class="p">):</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">trade_type</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="nb">round</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">amount</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">event</span><span class="o">.</span><span class="n">trading_pair</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">exchange</span><span class="si">}</span><span class="s2"> at </span><span class="si">{</span><span class="nb">round</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">price</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">log_with_clock</span><span class="p">(</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">notify_hb_app_with_timestamp</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</code></pre></div>
+<ul>
+<li>Hummingbot has the following events implemented:</li>
+<li><code>did_fill_order</code></li>
+<li><code>did_complete_buy_order</code></li>
+<li><code>did_complete_sell_order</code></li>
+<li><code>did_cancel_order</code></li>
+<li><code>did_create_buy_order</code></li>
+<li><code>did_create_sell_order</code></li>
+<li><code>did_fail_order</code></li>
+<li>
+<p>etc.</p>
+</li>
+<li>
+<p>You can use them to create custom logic if something happens!</p>
+</li>
+<li>In this case, we are just logging the message and sending the notification to the app.</li>
+<li>
+<p>After the tutorial, try to implement another event and see how it works.</p>
+</li>
+<li>
+<p>Open a terminal and run the client with <strong>./bin/hummingbot.py.</strong> (Make sure that the conda environment is activated)</p>
+</li>
+<li>Run the command: <code>start --script quickstart_script_2.py</code>. You should have the following output.</li>
+</ul>
+<p><img alt="Alt text" src="../../assets/example2-a.png" /></p>
+<p>Run the command: status --live and you should see:</p>
+<p><img alt="Alt text" src="../../assets/example2-b.png" /></p>
+<div class="admonition code">
+<p class="admonition-title">Code</p>
+<p><a href="https://gist.github.com/cardosofede/41826e41172ef64a86fbedadc4289708">https://gist.github.com/cardosofede/41826e41172ef64a86fbedadc4289708</a></p>
+</div>
                 
                   
   
@@ -6129,7 +6407,7 @@
   <small>
     
       Last update:
-      2023-03-02
+      2023-03-03
     
   </small>
 </div>

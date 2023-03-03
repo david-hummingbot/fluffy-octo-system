@@ -5999,7 +5999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debug/vscode.md" class="md-nav__link">
+      <a href="../../debug/vscode-linux/" class="md-nav__link">
         VSCode
       </a>
     </li>
@@ -6013,7 +6013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../debug/pycharm.md" class="md-nav__link">
+      <a href="../../debug/pycharm-linux/" class="md-nav__link">
         Pycharm
       </a>
     </li>
@@ -6282,10 +6282,17 @@
 <p>Once the OS is installed and booted then you can follow the steps below to install Hummingbot using either Docker or Source</p>
 <h2 id="install-via-docker"><strong>Install via Docker</strong><a class="headerlink" href="#install-via-docker" title="Permanent link">&para;</a></h2>
 <p>Copy and paste each line of code one by one into the terminal</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Click the "Copy to clipboard" icon at the end of the code blocks to easily copy the commands</p>
+</div>
 <div class="highlight"><pre><span></span><code>curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-sudo usermod -a -G docker $USER
-sudo systemctl start docker &amp;&amp; sudo systemctl enable docker
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>sudo sh get-docker.sh
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>sudo usermod -a -G docker $USER
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>sudo systemctl start docker &amp;&amp; sudo systemctl enable docker
 </code></pre></div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -6322,25 +6329,31 @@ Enter Hummingbot version: <span class="o">[</span> latest/development <span clas
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="c1"># 1) Create folder for your new instance</span>
+<p><div class="highlight"><pre><span></span><code>Create folder <span class="k">for</span> your new instance
+</code></pre></div>
 mkdir hummingbot_files
-
-<span class="c1"># 2) Create folders for logs, config files and database file</span>
+<div class="highlight"><pre><span></span><code>Create folders for logs, config files and database file
+</code></pre></div>
 mkdir hummingbot_files/hummingbot_conf
+mkdir hummingbot_files/hummingbot_conf/connectors
+mkdir hummingbot_files/hummingbot_conf/strategies
+mkdir hummingbot_files/hummingbot_certs
 mkdir hummingbot_files/hummingbot_logs
 mkdir hummingbot_files/hummingbot_data
 mkdir hummingbot_files/hummingbot_scripts
-
-<span class="c1"># 3) Launch a new instance of hummingbot</span>
-docker run -it <span class="se">\</span>
---network host <span class="se">\</span>
---name hummingbot-instance <span class="se">\</span>
---mount <span class="s2">&quot;type=bind,source=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">/hummingbot_files/hummingbot_conf,destination=/conf/&quot;</span> <span class="se">\</span>
---mount <span class="s2">&quot;type=bind,source=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">/hummingbot_files/hummingbot_logs,destination=/logs/&quot;</span> <span class="se">\</span>
---mount <span class="s2">&quot;type=bind,source=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">/hummingbot_files/hummingbot_data,destination=/data/&quot;</span> <span class="se">\</span>
---mount <span class="s2">&quot;type=bind,source=</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">/hummingbot_files/hummingbot_scripts,destination=/scripts/&quot;</span> <span class="se">\</span>
-hummingbot/hummingbot:version-1.13.0-arm_beta
+mkdir hummingbot_files/hummingbot_pmm_scripts</p>
+<p><div class="highlight"><pre><span></span><code>Launch a new instance of hummingbot
 </code></pre></div>
+docker run -it \
+--network host \
+--name hummingbot-instance \
+--mount "type=bind,source=<span class="arithmatex">\((pwd)/hummingbot_files/hummingbot_conf,destination=/conf/" \
+--mount "type=bind,source=\)</span>(pwd)/hummingbot_files/hummingbot_logs,destination=/logs/" \
+--mount "type=bind,source=<span class="arithmatex">\((pwd)/hummingbot_files/hummingbot_data,destination=/data/" \
+--mount "type=bind,source=\)</span>(pwd)/hummingbot_files/hummingbot_pmm_scripts,destination=/pmm_scripts/" \
+--mount "type=bind,source=$(pwd)/hummingbot_files/hummingbot_scripts,destination=/scripts/" \
+hummingbot/hummingbot:latest
+```</p>
 </div>
 </div>
 </div>
@@ -6401,7 +6414,7 @@ sh Miniforge3-4.11.0-4-Linux-aarch64.sh
   <small>
     
       Last update:
-      2023-03-01
+      2023-03-03
     
   </small>
 </div>
